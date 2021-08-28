@@ -1,4 +1,3 @@
-import { Certificate } from "crypto";
 import React from "react";
 import Main from "./components/Main";
 

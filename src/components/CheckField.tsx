@@ -10,13 +10,6 @@ type Props = {
   onChange: (name: string, prefName: number, check: boolean) => void;
 };
 
-const styles = {
-  hoverStyle: {
-    color: "grey",
-    "&:hover": { color: "blue !important" },
-  },
-};
-
 const Styles: { [key: string]: React.CSSProperties } = {
   checkcardList: {
     display: "flex",
